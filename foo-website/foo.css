@@ -10,3 +10,16 @@
 .page-header {
   color: white;
 }
+
+.support-chat {
+ background-color: #f5f6f7;
+
+}
+
+.move-right{
+  text-align: right;
+}
+
+.move-left{
+  text-align: left;
+}

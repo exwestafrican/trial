@@ -22,8 +22,11 @@ urlpatterns = [
     # Examples:
     # re_path(r'^$', 'minicom.views.home', name='home'),
     # re_path(r'^blog/', include('blog.urls')),
-    # path('blog/', include('blog.urls')),
+    # path('blog/', include('blog.urls')), 1-idx value
 
     path('foo', api.verify),
-    path('bar', api.verify)
+    path('bar', api.verify),
+    path('customer/prompt', api.get_company_prompt),
+    path('customer/send', api.send_message),
+    path('customer/unseen', api.fetch_response_from_org)
 ]
